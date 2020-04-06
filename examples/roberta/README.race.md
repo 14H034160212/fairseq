@@ -75,6 +75,23 @@ https://github.com/pytorch/fairseq/issues/1933
 l) If you want to run the command into the Jupyter notebook. Here is the fixed command.
 https://github.com/pytorch/fairseq/issues/1932
 
+m) Here are the accuracy that I got from the experiment. It is working when I set the UPDATE_FREQ=16. The training accuracy is going to 0.83 after the first epoch and the loss is doing gradient descent. Here is the training and validation result in the end. The average training accuracy is 0.96072 and the average validation accuracy is 0.833231. The testing result in the end. The average test accuracy is 86.8.
+Training and validation result
+```
+| epoch 005 | loss 0.158 | nll_loss 0.000 | ppl 1 | wps 770 | ups 0 | wpb 5574.176 | bsz 15.999 | num_updates 27301 | lr 1e-05 | gnorm 25.694 | clip 0.000 | oom 0.000 | loss_scale 128.000 | wall 248855 | train_wall 110662 | accuracy 0.96072
+| epoch 005 | valid on 'valid' subset | loss 1.066 | nll_loss 0.003 | ppl 1 | num_updates 27301 | best_accuracy 0.843871 | accuracy 0.833231
+| saved checkpoint checkpoints/checkpoint5.pt (epoch 5 @ 27301 updates) (writing took 12.924743890762329 seconds)
+| done training in 249225.2 seconds
+```
+Testing result
+```
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+
+```
+
 ### 4) Evaluation:
 
 ```
