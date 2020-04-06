@@ -50,6 +50,37 @@ b) Above cmd-args and hyperparams are tested on one Nvidia `V100` GPU with `32gb
 
 c) The setting in above command is based on our hyperparam search within a fixed search space (for careful comparison across models). You might be able to find better metrics with wider hyperparam search.  
 
+d) The questions that might happen when we doing the fine-tuning is the initial parameter setting of UPDATE_FREQ.
+
+e) Here is the training, validation and testing result link that I made by using the above command with one Tesla V100 32 GB GPU. https://github.com/pytorch/fairseq/issues/1946 
+
+f) Here are the error and solution link that I met in my replication.
+And here is the Q&A by doing the above fine-tuning on the Github platform.
+https://github.com/pytorch/fairseq/issues?q=is%3Aissue+race+is%3Aclosed
+
+More examples about RoBERTa in PyTorch office website
+https://pytorch.org/hub/pytorch_fairseq_roberta/
+
+Here is the error information that someone else met the same problem as me and the solution.
+
+https://github.com/pytorch/fairseq/issues/1114
+
+Here is the method to save the train log file.
+
+https://github.com/pytorch/fairseq/issues/963
+
+Here is the error that I met for the randomized accuracy and the solution.
+
+https://github.com/pytorch/fairseq/issues/1946 
+
+Here is the error that I met for the runtime error: CUDA out of memory and solution.
+
+https://github.com/pytorch/fairseq/issues/1933
+ 
+If you want to run the command into the Jupyter notebook. Here is the fixed command.
+
+https://github.com/pytorch/fairseq/issues/1932
+
 ### 4) Evaluation:
 
 ```
@@ -66,3 +97,6 @@ fairseq-validate \
     --criterion sentence_ranking \
     --save-predictions $PREDS_OUT
 ```
+**Note:**
+a) The needed to be installed package by doing evaluation
+https://github.com/pytorch/fairseq/issues/1382
