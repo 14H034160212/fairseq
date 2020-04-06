@@ -95,3 +95,6 @@ fairseq-validate \
 
 a) The needed to be installed package by doing evaluation.
 https://github.com/pytorch/fairseq/issues/1382
+
+b) The link of the whole training result which can only be viewed by using the University of Auckland account.
+https://drive.google.com/drive/folders/1tHwk3253Y5mS0g1IVlxdaW1V82orfw1K?usp=sharing
