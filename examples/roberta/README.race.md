@@ -54,30 +54,29 @@ d) The questions that might happen when we doing the fine-tuning is the initial 
 
 e) Here is the training, validation and testing result link that I made by using the above command with one Tesla V100 32 GB GPU. https://github.com/pytorch/fairseq/issues/1946 
 
-f) Here are the error and solution link that I met in my replication.
-And here is the Q&A by doing the above fine-tuning on the Github platform.
+f) Here is the Q&A by doing the above fine-tuning on the Github platform.
 https://github.com/pytorch/fairseq/issues?q=is%3Aissue+race+is%3Aclosed
 
-More examples about RoBERTa in PyTorch office website
+g) More examples about RoBERTa in PyTorch office website
 https://pytorch.org/hub/pytorch_fairseq_roberta/
 
-Here is the error information that someone else met the same problem as me and the solution.
+h) Here is the error information that someone else met the same problem as me and the solution.
 
 https://github.com/pytorch/fairseq/issues/1114
 
-Here is the method to save the train log file.
+i) Here is the method to save the train log file.
 
 https://github.com/pytorch/fairseq/issues/963
 
-Here is the error that I met for the randomized accuracy and the solution.
+j) Here is the error that I met for the randomized accuracy and the solution.
 
 https://github.com/pytorch/fairseq/issues/1946 
 
-Here is the error that I met for the runtime error: CUDA out of memory and solution.
+k) Here is the error that I met for the runtime error: CUDA out of memory and solution.
 
 https://github.com/pytorch/fairseq/issues/1933
  
-If you want to run the command into the Jupyter notebook. Here is the fixed command.
+l) If you want to run the command into the Jupyter notebook. Here is the fixed command.
 
 https://github.com/pytorch/fairseq/issues/1932
 
