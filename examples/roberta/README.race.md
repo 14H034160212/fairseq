@@ -15,7 +15,7 @@ MAX_EPOCH=5           # Number of training epochs.
 LR=1e-05              # Peak LR for fixed LR scheduler.
 NUM_CLASSES=4
 MAX_SENTENCES=1       # Batch size per GPU.
-UPDATE_FREQ=8         # Accumulate gradients to simulate training on 8 GPUs.
+UPDATE_FREQ=16         # Accumulate gradients to simulate training on 16 GPUs. The original is 8 which is not work in my case.
 DATA_DIR=/path/to/race-output-dir
 ROBERTA_PATH=/path/to/roberta/model.pt
 
