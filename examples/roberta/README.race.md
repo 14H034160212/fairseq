@@ -61,23 +61,18 @@ g) More examples about RoBERTa in PyTorch office website
 https://pytorch.org/hub/pytorch_fairseq_roberta/
 
 h) Here is the error information that someone else met the same problem as me and the solution.
-
 https://github.com/pytorch/fairseq/issues/1114
 
 i) Here is the method to save the train log file.
-
 https://github.com/pytorch/fairseq/issues/963
 
 j) Here is the error that I met for the randomized accuracy and the solution.
-
 https://github.com/pytorch/fairseq/issues/1946 
 
 k) Here is the error that I met for the runtime error: CUDA out of memory and solution.
-
 https://github.com/pytorch/fairseq/issues/1933
  
 l) If you want to run the command into the Jupyter notebook. Here is the fixed command.
-
 https://github.com/pytorch/fairseq/issues/1932
 
 ### 4) Evaluation:
@@ -99,5 +94,4 @@ fairseq-validate \
 **Note:**
 
 a) The needed to be installed package by doing evaluation.
-
 https://github.com/pytorch/fairseq/issues/1382
