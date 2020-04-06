@@ -99,5 +99,6 @@ fairseq-validate \
 ```
 **Note:**
 
-a) The needed to be installed package by doing evaluation
+a) The needed to be installed package by doing evaluation.
+
 https://github.com/pytorch/fairseq/issues/1382
