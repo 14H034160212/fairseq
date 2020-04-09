@@ -110,6 +110,7 @@ b) The link of the whole training result which can only be viewed by using the U
 https://drive.google.com/drive/folders/1tHwk3253Y5mS0g1IVlxdaW1V82orfw1K?usp=sharing
 
 c) The testing result in the end. The average test accuracy is 86.8.
+
 Testing result
 ```
  | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
