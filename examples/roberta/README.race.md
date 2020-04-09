@@ -75,7 +75,7 @@ https://github.com/pytorch/fairseq/issues/1933
 l) If you want to run the command into the Jupyter notebook. Here is the fixed command.
 https://github.com/pytorch/fairseq/issues/1932
 
-m) Here are the accuracy that I got from the experiment. It is working when I set the UPDATE_FREQ=16. The training accuracy is going to 0.83 after the first epoch and the loss is doing gradient descent. Here is the training and validation result in the end. The average training accuracy is 0.96072 and the average validation accuracy is 0.833231. The testing result in the end. The average test accuracy is 86.8.
+m) Here are the accuracy that I got from the experiment. It is working when I set the UPDATE_FREQ=16. The training accuracy is going to 0.83 after the first epoch and the loss is doing gradient descent. Here is the training and validation result in the end. The average training accuracy is 0.96072 and the average validation accuracy is 0.833231. 
 
 Training and validation result
 ```
@@ -83,13 +83,6 @@ Training and validation result
 | epoch 005 | valid on 'valid' subset | loss 1.066 | nll_loss 0.003 | ppl 1 | num_updates 27301 | best_accuracy 0.843871 | accuracy 0.833231
 | saved checkpoint checkpoints/checkpoint5.pt (epoch 5 @ 27301 updates) (writing took 12.924743890762329 seconds)
 | done training in 249225.2 seconds
-```
-Testing result
-```
- | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
- | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
- | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
- | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
 ```
 
 ### 4) Evaluation:
@@ -115,3 +108,12 @@ https://github.com/pytorch/fairseq/issues/1382
 
 b) The link of the whole training result which can only be viewed by using the University of Auckland account.
 https://drive.google.com/drive/folders/1tHwk3253Y5mS0g1IVlxdaW1V82orfw1K?usp=sharing
+
+c) The testing result in the end. The average test accuracy is 86.8.
+Testing result
+```
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+ | valid on 'test' subset | loss 0.659 | nll_loss 0.003 | accuracy 86.8 | wps 0 | wpb 369321 | bsz 1436
+```
