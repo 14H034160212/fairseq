@@ -9,6 +9,7 @@ python ./examples/roberta/preprocess_RACE.py --input-dir <input-dir> --output-di
 ```
 
 ### 3) Fine-tuning on RACE:
+(The lastest version https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.race.md)
 
 ```bash
 MAX_EPOCH=5           # Number of training epochs.
